@@ -62,7 +62,7 @@ Resources:
       InstanceType: t2.micro
       SecurityGroups:
         - !Ref WebServerSecurityGroup
-      KeyName: KP
+      KeyName: !Ref KeyName
       Tags:
         -
           Key: Application
